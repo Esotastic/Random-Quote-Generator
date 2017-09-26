@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Chris Jimenez</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- Fonts and Styling-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poppins" rel="stylesheet">
+
+<div class="container-fluid">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Main Box-->
+  <div class="quote-box pagination-centered text-center center-block">
+
+    <div class="quote-text-main">
+      <i class="fa fa-quote-left"> </i><span id="quote-text"></span> <i class="fa fa-quote-right"></i>
+    </div>
+
+    <div id="quote-name">
+      -- <span id="author"></span>
+    </div>
+    <br>
+    <div class="quote-button-main">
+      <button id="quote-button" onclick="getQuote()" type="button">Generate Quote</button>
+      <br>
+      <br>
+    </div>
+    <div class="social-media-buttons">
+      <a onclick="sendTweet()" id="tweet-quote" title="Share to Twitter!" target="_blank">
+        <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+    </div>
+
+  </div>
+  <div class="footer">
+    <p>by Chris Jimenez</p>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>

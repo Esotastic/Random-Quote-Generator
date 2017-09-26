@@ -1,0 +1,58 @@
+
+
+.quote-box{
+  font-family: 'Poppins', sans-serif;
+  background-color:#58E8A2;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+ 
+  padding-bottom: 25px;
+  /*box-shadow: 10px 10px;*/
+  position: relative;
+  width:450px;
+}
+
+.quote-text-main { 
+ margin-right: 15px;
+ margin-left: 15px;
+}
+
+body {
+  background-color: #609599;
+}
+
+button { 
+  border-radius: 5px;
+  background-color: #90ABFF;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border:none;
+  cursor:pointer;
+  padding: 10px 5px 10px 5px;
+  /*box-shadow: 5px 5px;*/
+}
+button:hover {
+  opacity: 0.75;
+  filter: alpha(opacity=90);
+  
+}
+
+.social-media-buttons {
+ cursor:pointer;
+  display: inline;
+  width: 450px;
+
+
+}
+.quote-text-main {
+  font-size: 25px;
+padding-top: 15px;
+}
+
+.footer {
+  font-size: 10px;
+  text-align: center;
+  
+}
